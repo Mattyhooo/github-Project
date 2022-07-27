@@ -13,6 +13,12 @@ body{
     margin: 0;
 }
 
+.clr{
+    clear: both;
+}
+.container{
+    max-width: 80%;
+}
 a{
     text-decoration: none;
     color: #000;
@@ -75,4 +81,29 @@ font-style: italic;
 .catagories li{
     padding-bottom: 6px;
     border-bottom: dotted 1px #333;
+}
+
+.Block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    
+
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
 }
